@@ -13,17 +13,44 @@
 		C02DA094299BDA3400873A26 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C02DA093299BDA3400873A26 /* Preview Assets.xcassets */; };
 		C02DA09C299BDA5B00873A26 /* Dependencies in Frameworks */ = {isa = PBXBuildFile; productRef = C02DA09B299BDA5B00873A26 /* Dependencies */; };
 		C02DA09E299BDA5B00873A26 /* TCA in Frameworks */ = {isa = PBXBuildFile; productRef = C02DA09D299BDA5B00873A26 /* TCA */; };
-		C0A6EDFE299CCA8500047B8E /* ChibiEditReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A6EDFD299CCA8500047B8E /* ChibiEditReducer.swift */; };
+		C0A6EDFE299CCA8500047B8E /* ChibiEditFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A6EDFD299CCA8500047B8E /* ChibiEditFeature.swift */; };
 		C0A6EE01299CDFB800047B8E /* UIScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A6EE00299CDFB800047B8E /* UIScreen.swift */; };
 		C0A6EE03299E1D1500047B8E /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A6EE02299E1D1500047B8E /* View.swift */; };
 		C0A6EE0629A0B49B00047B8E /* ModuleOpenState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A6EE0529A0B49B00047B8E /* ModuleOpenState.swift */; };
 		C0A6EE0829A0B4A600047B8E /* ModuleOpenAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A6EE0729A0B4A600047B8E /* ModuleOpenAction.swift */; };
 		C0A6EE0A29A0B4B100047B8E /* ModuleOpenFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A6EE0929A0B4B100047B8E /* ModuleOpenFeature.swift */; };
 		C0A6EE0C29A0B4C300047B8E /* ModuleOpenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A6EE0B29A0B4C300047B8E /* ModuleOpenView.swift */; };
+		C0A6EE1329A7824D00047B8E /* TCAImageAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A6EE0F29A7824C00047B8E /* TCAImageAction.swift */; };
+		C0A6EE1429A7824D00047B8E /* TCAImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A6EE1029A7824C00047B8E /* TCAImageView.swift */; };
+		C0A6EE1529A7824D00047B8E /* TCAImageFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A6EE1129A7824C00047B8E /* TCAImageFeature.swift */; };
+		C0A6EE1629A7824D00047B8E /* TCAImageState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A6EE1229A7824C00047B8E /* TCAImageState.swift */; };
+		C0A6EE1929A7842300047B8E /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = C0A6EE1829A7842300047B8E /* Kingfisher */; };
+		C0A6EE1D29A7896100047B8E /* Layout.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A6EE1B29A7896100047B8E /* Layout.xcframework */; };
+		C0A6EE1E29A7896100047B8E /* Layout.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C0A6EE1B29A7896100047B8E /* Layout.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C0A6EE1F29A7896100047B8E /* Then.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A6EE1C29A7896100047B8E /* Then.xcframework */; };
+		C0A6EE2029A7896100047B8E /* Then.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C0A6EE1C29A7896100047B8E /* Then.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C0A6EE2629A789CE00047B8E /* SwiftUIRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A6EE2329A789CD00047B8E /* SwiftUIRepresentable.swift */; };
+		C0A6EE2729A789CE00047B8E /* UIViewRepresented.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A6EE2429A789CD00047B8E /* UIViewRepresented.swift */; };
+		C0A6EE2829A789CE00047B8E /* UIViewControllerRepresented.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A6EE2529A789CD00047B8E /* UIViewControllerRepresented.swift */; };
 		C0CF7E90299BDC7300B65941 /* ChibiEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CF7E8F299BDC7300B65941 /* ChibiEditView.swift */; };
 		C0CF7E92299BDC8400B65941 /* ChibiEditState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CF7E91299BDC8400B65941 /* ChibiEditState.swift */; };
 		C0CF7E98299BDCBC00B65941 /* ChibiEditAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CF7E97299BDCBC00B65941 /* ChibiEditAction.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C0A6EE2129A7896100047B8E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C0A6EE2029A7896100047B8E /* Then.xcframework in Embed Frameworks */,
+				C0A6EE1E29A7896100047B8E /* Layout.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		C02DA089299BDA3300873A26 /* ChibiEdit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChibiEdit.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -31,13 +58,22 @@
 		C02DA08E299BDA3300873A26 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C02DA090299BDA3300873A26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C02DA093299BDA3400873A26 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		C0A6EDFD299CCA8500047B8E /* ChibiEditReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChibiEditReducer.swift; sourceTree = "<group>"; };
+		C0A6EDFD299CCA8500047B8E /* ChibiEditFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChibiEditFeature.swift; sourceTree = "<group>"; };
 		C0A6EE00299CDFB800047B8E /* UIScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScreen.swift; sourceTree = "<group>"; };
 		C0A6EE02299E1D1500047B8E /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		C0A6EE0529A0B49B00047B8E /* ModuleOpenState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleOpenState.swift; sourceTree = "<group>"; };
 		C0A6EE0729A0B4A600047B8E /* ModuleOpenAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleOpenAction.swift; sourceTree = "<group>"; };
 		C0A6EE0929A0B4B100047B8E /* ModuleOpenFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleOpenFeature.swift; sourceTree = "<group>"; };
 		C0A6EE0B29A0B4C300047B8E /* ModuleOpenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleOpenView.swift; sourceTree = "<group>"; };
+		C0A6EE0F29A7824C00047B8E /* TCAImageAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCAImageAction.swift; sourceTree = "<group>"; };
+		C0A6EE1029A7824C00047B8E /* TCAImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCAImageView.swift; sourceTree = "<group>"; };
+		C0A6EE1129A7824C00047B8E /* TCAImageFeature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCAImageFeature.swift; sourceTree = "<group>"; };
+		C0A6EE1229A7824C00047B8E /* TCAImageState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCAImageState.swift; sourceTree = "<group>"; };
+		C0A6EE1B29A7896100047B8E /* Layout.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Layout.xcframework; path = ../../../../../Downloads/Carthage/Layout.xcframework; sourceTree = "<group>"; };
+		C0A6EE1C29A7896100047B8E /* Then.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Then.xcframework; path = ../../../../../Downloads/Carthage/Then.xcframework; sourceTree = "<group>"; };
+		C0A6EE2329A789CD00047B8E /* SwiftUIRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIRepresentable.swift; sourceTree = "<group>"; };
+		C0A6EE2429A789CD00047B8E /* UIViewRepresented.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewRepresented.swift; sourceTree = "<group>"; };
+		C0A6EE2529A789CD00047B8E /* UIViewControllerRepresented.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerRepresented.swift; sourceTree = "<group>"; };
 		C0CF7E8F299BDC7300B65941 /* ChibiEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChibiEditView.swift; sourceTree = "<group>"; };
 		C0CF7E91299BDC8400B65941 /* ChibiEditState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChibiEditState.swift; sourceTree = "<group>"; };
 		C0CF7E97299BDCBC00B65941 /* ChibiEditAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChibiEditAction.swift; sourceTree = "<group>"; };
@@ -48,8 +84,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0A6EE1F29A7896100047B8E /* Then.xcframework in Frameworks */,
+				C0A6EE1929A7842300047B8E /* Kingfisher in Frameworks */,
 				C02DA09C299BDA5B00873A26 /* Dependencies in Frameworks */,
 				C02DA09E299BDA5B00873A26 /* TCA in Frameworks */,
+				C0A6EE1D29A7896100047B8E /* Layout.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +100,7 @@
 			children = (
 				C02DA08B299BDA3300873A26 /* ChibiEdit */,
 				C02DA08A299BDA3300873A26 /* Products */,
+				C0A6EE1A29A7896100047B8E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -75,7 +115,8 @@
 		C02DA08B299BDA3300873A26 /* ChibiEdit */ = {
 			isa = PBXGroup;
 			children = (
-				C0A6EE0D29A0D6D500047B8E /* New Group */,
+				C0A6EE2229A789CD00047B8E /* UIViewRepresented */,
+				C0A6EE0E29A7824C00047B8E /* TCAImage */,
 				C0A6EDFF299CDFA100047B8E /* Extension */,
 				C0A6EE0429A0B3A600047B8E /* ModuleOpen */,
 				C0CF7E8E299BDC6300B65941 /* ChibiEdit */,
@@ -115,11 +156,34 @@
 			path = ModuleOpen;
 			sourceTree = "<group>";
 		};
-		C0A6EE0D29A0D6D500047B8E /* New Group */ = {
+		C0A6EE0E29A7824C00047B8E /* TCAImage */ = {
 			isa = PBXGroup;
 			children = (
+				C0A6EE0F29A7824C00047B8E /* TCAImageAction.swift */,
+				C0A6EE1029A7824C00047B8E /* TCAImageView.swift */,
+				C0A6EE1129A7824C00047B8E /* TCAImageFeature.swift */,
+				C0A6EE1229A7824C00047B8E /* TCAImageState.swift */,
 			);
-			path = "New Group";
+			path = TCAImage;
+			sourceTree = "<group>";
+		};
+		C0A6EE1A29A7896100047B8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0A6EE1B29A7896100047B8E /* Layout.xcframework */,
+				C0A6EE1C29A7896100047B8E /* Then.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0A6EE2229A789CD00047B8E /* UIViewRepresented */ = {
+			isa = PBXGroup;
+			children = (
+				C0A6EE2329A789CD00047B8E /* SwiftUIRepresentable.swift */,
+				C0A6EE2429A789CD00047B8E /* UIViewRepresented.swift */,
+				C0A6EE2529A789CD00047B8E /* UIViewControllerRepresented.swift */,
+			);
+			path = UIViewRepresented;
 			sourceTree = "<group>";
 		};
 		C0CF7E8E299BDC6300B65941 /* ChibiEdit */ = {
@@ -127,7 +191,7 @@
 			children = (
 				C0CF7E8F299BDC7300B65941 /* ChibiEditView.swift */,
 				C0CF7E91299BDC8400B65941 /* ChibiEditState.swift */,
-				C0A6EDFD299CCA8500047B8E /* ChibiEditReducer.swift */,
+				C0A6EDFD299CCA8500047B8E /* ChibiEditFeature.swift */,
 				C0CF7E97299BDCBC00B65941 /* ChibiEditAction.swift */,
 			);
 			path = ChibiEdit;
@@ -143,6 +207,7 @@
 				C02DA085299BDA3300873A26 /* Sources */,
 				C02DA086299BDA3300873A26 /* Frameworks */,
 				C02DA087299BDA3300873A26 /* Resources */,
+				C0A6EE2129A7896100047B8E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +217,7 @@
 			packageProductDependencies = (
 				C02DA09B299BDA5B00873A26 /* Dependencies */,
 				C02DA09D299BDA5B00873A26 /* TCA */,
+				C0A6EE1829A7842300047B8E /* Kingfisher */,
 			);
 			productName = ChibiEdit;
 			productReference = C02DA089299BDA3300873A26 /* ChibiEdit.app */;
@@ -183,6 +249,7 @@
 			mainGroup = C02DA080299BDA3300873A26;
 			packageReferences = (
 				C02DA09A299BDA5B00873A26 /* XCRemoteSwiftPackageReference "TCA" */,
+				C0A6EE1729A7842300047B8E /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
 			productRefGroup = C02DA08A299BDA3300873A26 /* Products */;
 			projectDirPath = "";
@@ -211,16 +278,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0A6EE03299E1D1500047B8E /* View.swift in Sources */,
+				C0A6EE2829A789CE00047B8E /* UIViewControllerRepresented.swift in Sources */,
 				C0A6EE0A29A0B4B100047B8E /* ModuleOpenFeature.swift in Sources */,
 				C02DA08F299BDA3300873A26 /* ContentView.swift in Sources */,
+				C0A6EE1429A7824D00047B8E /* TCAImageView.swift in Sources */,
 				C0CF7E92299BDC8400B65941 /* ChibiEditState.swift in Sources */,
-				C0A6EDFE299CCA8500047B8E /* ChibiEditReducer.swift in Sources */,
+				C0A6EDFE299CCA8500047B8E /* ChibiEditFeature.swift in Sources */,
 				C02DA08D299BDA3300873A26 /* ChibiEditApp.swift in Sources */,
 				C0A6EE0C29A0B4C300047B8E /* ModuleOpenView.swift in Sources */,
 				C0A6EE0629A0B49B00047B8E /* ModuleOpenState.swift in Sources */,
 				C0CF7E90299BDC7300B65941 /* ChibiEditView.swift in Sources */,
+				C0A6EE1629A7824D00047B8E /* TCAImageState.swift in Sources */,
+				C0A6EE2629A789CE00047B8E /* SwiftUIRepresentable.swift in Sources */,
+				C0A6EE1529A7824D00047B8E /* TCAImageFeature.swift in Sources */,
 				C0A6EE0829A0B4A600047B8E /* ModuleOpenAction.swift in Sources */,
+				C0A6EE2729A789CE00047B8E /* UIViewRepresented.swift in Sources */,
 				C0A6EE01299CDFB800047B8E /* UIScreen.swift in Sources */,
+				C0A6EE1329A7824D00047B8E /* TCAImageAction.swift in Sources */,
 				C0CF7E98299BDCBC00B65941 /* ChibiEditAction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,6 +508,14 @@
 				kind = branch;
 			};
 		};
+		C0A6EE1729A7842300047B8E /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -446,6 +528,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = C02DA09A299BDA5B00873A26 /* XCRemoteSwiftPackageReference "TCA" */;
 			productName = TCA;
+		};
+		C0A6EE1829A7842300047B8E /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C0A6EE1729A7842300047B8E /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

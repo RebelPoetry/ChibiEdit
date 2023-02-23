@@ -13,11 +13,11 @@ public enum ChibiEditAction: Equatable {
 
     // MARK: - Properties
     
+    /// Child action for `TCAImageAction` module.
+    case image(TCAImageAction)
+    
     /// Setter for `name` property binding
     case setName(String)
-    
-    /// soon
-    case getImageURL
     
     /// An action which closes current `ChibiEdit` module
     case closeButtonTapped

@@ -24,8 +24,18 @@ public struct ChibiEditView: View {
             ZStack {
                 Color("backgroundColor").ignoresSafeArea()
                 VStack(spacing: 0) {
-                    Image("chibi")
-                        .padding(20)
+                    TCAImageView(
+                        store: store.scope(
+                            state: \.image,
+                            action: ChibiEditAction.image
+                        ),
+                        placeholder: nil,
+                        contentMode: .scaleAspectFill
+                    )
+                    .swiftUI()
+                    .frame(height: 140)
+                    .padding(.vertical, 20)
+                    .padding(.horizontal, 30)
                     if viewStore.isPlaceholderDisplayed {
                         Text("Имя можно изменить в любой момент")
                             .foregroundColor(Color("holderTextColor"))
@@ -36,7 +46,7 @@ public struct ChibiEditView: View {
                             send: ChibiEditAction.setName
                         )
                     )
-                    .padding(.horizontal, 10)
+                    .padding(.horizontal, 16)
                     .frame(height: 60)
                     .background(Color(.tertiarySystemGroupedBackground))
                     .smoothCorners(radius: 16)
@@ -50,9 +60,9 @@ public struct ChibiEditView: View {
                             .font(.system(size: 17, weight: .bold))
                             .foregroundColor(.white)
                             .frame(height: 60)
+                            .background(Color("buttonColor"))
+                            .smoothCorners(radius: 16)
                     }
-                    .background(Color("buttonColor"))
-                    .smoothCorners(radius: 16)
                     .padding(16)
                 }
                 .toolbar {
@@ -90,9 +100,11 @@ extension View {
 struct ChibiEditView_Previews: PreviewProvider {
     static var previews: some View {
         ChibiEditView(store: Store(
-                initialState: ChibiEditState(isPlaceholderDisplayed: true),
-                reducer: ChibiEditFeature()
-            )
+            initialState: ChibiEditState(image: URL(string:                                  "https://wp-s.ru/wallpapers/9/18/438540442363429/izgib-reki-na-fone-zakata.jpg")!,
+                                         isPlaceholderDisplayed: true
+                                        ),
+            reducer: ChibiEditFeature()
+        )
         )
     }
 }

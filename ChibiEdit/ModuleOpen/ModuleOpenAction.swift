@@ -7,6 +7,8 @@
 
 import Foundation
 
+// MARK: - ModuleOpenAction
+
 public enum ModuleOpenAction: Equatable {
     
     // MARK: - ChibiEdit
