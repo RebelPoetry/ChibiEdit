@@ -10,10 +10,10 @@ import Foundation
 public struct ModuleOpenState: Equatable {
     
     /// `ChibiEditState` instance.
-    public var chibiEditWithLabel = ChibiEditState(placeHolderIsActive: true)
+    public var chibiEditWithLabel = ChibiEditState(isPlaceholderDisplayed: true)
     
     /// `ChibiEditState` instance.
-    public var chibiEdit = ChibiEditState(placeHolderIsActive: false)
+    public var chibiEdit = ChibiEditState(isPlaceholderDisplayed: false)
     
     /// Flag which indicate is module with label are shown.
     public var chibiEditWithLabelIsActive = false

@@ -16,7 +16,7 @@ public struct ChibiEditFeature: ReducerProtocol {
     public var body: some ReducerProtocol<ChibiEditState, ChibiEditAction> {
         Reduce { state, action in
             switch action {
-            case .changeName(let name):
+            case .setName(let name):
                 state.name = name
             default:
                 break

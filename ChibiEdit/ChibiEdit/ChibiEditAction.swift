@@ -14,7 +14,7 @@ public enum ChibiEditAction: Equatable {
     // MARK: - Properties
     
     /// Setter for `name` property binding
-    case changeName(String)
+    case setName(String)
     
     /// soon
     case getImageURL

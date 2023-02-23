@@ -18,9 +18,8 @@ public struct ChibiEditState: Equatable {
     public let chibiImage = ""
     
     /// The name of editable Chibi
-    @BindableState public var name = ""
+    public var name = ""
     
     /// Flag which indicate is placholder active
-    public let placeHolderIsActive: Bool
-    
+    public let isPlaceholderDisplayed: Bool
 }

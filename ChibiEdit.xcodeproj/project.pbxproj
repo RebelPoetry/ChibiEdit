@@ -95,38 +95,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		C0A6EDF9299CCA1D00047B8E /* View */ = {
-			isa = PBXGroup;
-			children = (
-				C0CF7E8F299BDC7300B65941 /* ChibiEditView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		C0A6EDFA299CCA2700047B8E /* Reducer */ = {
-			isa = PBXGroup;
-			children = (
-				C0A6EDFD299CCA8500047B8E /* ChibiEditReducer.swift */,
-			);
-			path = Reducer;
-			sourceTree = "<group>";
-		};
-		C0A6EDFB299CCA3400047B8E /* State */ = {
-			isa = PBXGroup;
-			children = (
-				C0CF7E91299BDC8400B65941 /* ChibiEditState.swift */,
-			);
-			path = State;
-			sourceTree = "<group>";
-		};
-		C0A6EDFC299CCA3C00047B8E /* Action */ = {
-			isa = PBXGroup;
-			children = (
-				C0CF7E97299BDCBC00B65941 /* ChibiEditAction.swift */,
-			);
-			path = Action;
-			sourceTree = "<group>";
-		};
 		C0A6EDFF299CDFA100047B8E /* Extension */ = {
 			isa = PBXGroup;
 			children = (
@@ -157,10 +125,10 @@
 		C0CF7E8E299BDC6300B65941 /* ChibiEdit */ = {
 			isa = PBXGroup;
 			children = (
-				C0A6EDFC299CCA3C00047B8E /* Action */,
-				C0A6EDFB299CCA3400047B8E /* State */,
-				C0A6EDFA299CCA2700047B8E /* Reducer */,
-				C0A6EDF9299CCA1D00047B8E /* View */,
+				C0CF7E8F299BDC7300B65941 /* ChibiEditView.swift */,
+				C0CF7E91299BDC8400B65941 /* ChibiEditState.swift */,
+				C0A6EDFD299CCA8500047B8E /* ChibiEditReducer.swift */,
+				C0CF7E97299BDCBC00B65941 /* ChibiEditAction.swift */,
 			);
 			path = ChibiEdit;
 			sourceTree = "<group>";
